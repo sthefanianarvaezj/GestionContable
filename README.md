@@ -20,21 +20,20 @@ Aplicación web desarrollada en PHP para la gestión contable de trabajos, pagos
 
 ## 📁 Estructura del proyecto
 
+## GestionContableApp/
+
 GestionContableApp/
-├── config/ # Configuración de base de datos
-├── usuarios.php # Listado y gestión de usuarios
-├── trabajos.php # Registro y seguimiento de trabajos
-├── registrar_pago.php # Registro de pagos
-├── reportes.php # Reportes generales
-├── login.php / logout.php # Autenticación
-├── roles.php / permisos.phpGestionContableApp/
-├── config/ # Configuración de base de datos
-├── usuarios.php # Listado y gestión de usuarios
-├── trabajos.php # Registro y seguimiento de trabajos
-├── registrar_pago.php # Registro de pagos
-├── reportes.php # Reportes generales
-├── login.php / logout.php # Autenticación
-├── roles.php / permisos.php
+├── config/                 # Configuración de base de datos
+├── usuarios.php            # Listado y gestión de usuarios
+├── trabajos.php            # Registro y seguimiento de trabajos
+├── registrar_pago.php      # Registro de pagos
+├── reportes.php            # Reportes generales
+├── login.php               # Inicio de sesión
+├── logout.php              # Cierre de sesión
+├── roles.php               # Gestión de roles
+├── permisos.php            # Gestión de permisos
+
+
 
 1. Clona el repositorio:
    ```bash
